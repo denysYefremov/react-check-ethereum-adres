@@ -1,0 +1,37 @@
+.custom-button {
+    border: 0;
+    border-radius: 0.25rem;
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem;
+    cursor: pointer;
+}
+
+.custom-button.default {
+    color: #4b4b4b;
+    background-image: linear-gradient(#fff, #d5d5d5);
+    border: 1px solid #d5d5d5;
+}
+
+.custom-button.blue {
+    color: #fff;
+    background-image: linear-gradient(#4f93ce, #285f8f);
+    border: 1px solid #285f8f;
+}
+
+.custom-button.red {
+    color: #fff;
+    background-image: linear-gradient(#ce655a, #8f2a21);
+    border: 1px solid #8f2a21;
+}
+
+.custom-button[disabled] {
+    color: #797979;
+    background: #cccccc none;
+    border: 1px solid #aaa;
+    cursor: not-allowed;
+}

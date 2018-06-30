@@ -1,0 +1,39 @@
+.validate-address {
+    width: 400px;
+    border: 1px solid #AfAfAf;
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 10px;
+
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+}
+
+.validate-address.error {
+    border: 1px solid #8f2a21;
+
+    -webkit-box-shadow: 0 0 10px 0 rgba(143,42,33,0.5);
+    -moz-box-shadow: 0 0 10px 0 rgba(143,42,33,0.5);
+    box-shadow: 0 0 10px 0 rgba(143,42,33,0.5);
+}
+
+.validate-address--error {
+    display: none;
+    position: absolute;
+    font-size: 0.75rem;
+    line-height: 0.85rem;
+    color: #a41624;
+    top: 2.1rem;
+}
+
+.validate-address.error .validate-address--error {
+    display: block;
+}
+
+.validate-address--title {
+    margin: 0;
+    padding-bottom: 1rem;
+}

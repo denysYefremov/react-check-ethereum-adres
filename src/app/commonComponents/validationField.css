@@ -1,0 +1,49 @@
+.validation-field {
+    margin: 0.25rem;
+    position: relative;
+}
+
+.validation-field--label {
+    font-size: 1rem;
+    line-height: 1.2;
+    font-family: sans-serif;
+    margin-bottom: 0.2rem;
+}
+
+.validation-field--label:after {
+    content: ":";
+}
+
+.validation-field--input-wrapper--input {
+    padding: 0.5rem 0.35rem;
+    border: 1px solid #bfbfbf;
+    border-radius: 0.25rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 0.2rem;
+}
+
+.validation-field--input-wrapper--input.error {
+    border: 1px solid #a41624;
+}
+
+.validation-field--input-wrapper--input::placeholder {
+    color: #bfbfbf;
+}
+
+.validation-field--input-wrapper--input:-ms-input-placeholder {
+    color: #bfbfbf;
+}
+
+.validation-field--input-wrapper--input::-ms-input-placeholder {
+    color: #bfbfbf;
+}
+
+.validation-field--input-wrapper--error {
+    display: block;
+    font-size: 0.75rem;
+    line-height: 0.85rem;
+    color: #a41624;
+    position: absolute;
+    bottom: 0;
+}
